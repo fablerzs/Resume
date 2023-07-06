@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Inter:wght@100;200;300;400&family=Noto+Sans:wght@500;700&family=Roboto:wght@100;300;400;500;900&display=swap');
+
+$background1: #e7e7e9;
+$primary_color :#ffffff;
+$separator: #a5a5a7;
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.contact_info {
+    width: 280px;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: $background1;
+    div {
+        padding: 20px 0;
+        border-bottom: 2px dashed $separator;
+        h1 {
+            font-size: 28px;
+            font-weight: 300;
+            span {
+                font-size: 28px;
+                font-weight:600;
+            }
+        }
+        h2 {
+            font-size: 13px;
+            font-weight: 100;
+        }
+        h3 {
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        img {
+            margin-bottom: 20px;
+            width: 90%;
+            height: 195px;
+            border-radius: 100%;
+            border: solid 3px $separator;
+        }
+        ul {
+            li {
+                span {
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}
+
+.main_info {
+    max-width: 800px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .container {
+        border-top: 3px dashed $separator;
+        
+        h3 {
+            background-color: $separator;
+            width:350px;
+            text-align: center;
+            font-size: 20px;
+            position: relative;
+            top: -15px;
+        }
+        li {
+            border-bottom: 1px dotted $separator;
+            &:last-child {
+                border-bottom: none;
+            }
+            h4 {
+                text-transform:uppercase;
+            }
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 15px;
+            .block {
+                width: 20%;
+                &2 {
+                    width: 70%;
+                }
+            }
+        }
+        .education {
+            .block {
+                width: 40%;
+                &2 {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+
+.bottom {
+    display: flex;
+    border-top: 3px dashed $separator;
+    justify-content: flex-start;
+    .references {
+        border-right: 3px dashed $separator;
+        width: 60%;
+        h3 {
+            background-color: $separator;
+            width:160px;
+            text-align: center;
+            font-size: 20px;
+            position: relative;
+            top: -15px;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 10px;
+        }
+    }
+    .skills {
+        width: 100%;
+        h3 {
+            background-color: $separator;
+            width:200px;
+            text-align: center;
+            font-size: 20px;
+            position: relative;
+            top: -15px;
+            right: -20px;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 10px;
+            li {
+                align-items: center;
+                div {
+                    width: 45%;
+                }
+                display: flex;
+                .progress_bar {
+                    background-color: $background1;
+                    width: 90%;
+                    height: 20px;
+                    .fill {
+                        background-color: $separator;
+                        width: 70%;
+                        height: 20px;
+                        &2 {
+                            @extend .fill;
+                            width: 86%;
+                        } 
+                        &3 {
+                            @extend .fill;
+                            width: 80%;
+                        }
+                        &4 {
+                            @extend .fill;
+                            width: 70%;
+                        }
+                        &5 {
+                            @extend .fill;
+                            width: 75%;
+                        }
+                        &6 {
+                            @extend .fill;
+                            width: 50%;
+                        }
+                        &7 {
+                            @extend .fill;
+                            width: 30%;
+                        }
+
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

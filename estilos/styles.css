@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Inter:wght@100;200;300;400&family=Noto+Sans:wght@500;700&family=Roboto:wght@100;300;400;500;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_info {
+  width: 280px;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #e7e7e9;
+}
+.contact_info div {
+  padding: 20px 0;
+  border-bottom: 2px dashed #a5a5a7;
+}
+.contact_info div h1 {
+  font-size: 28px;
+  font-weight: 300;
+}
+.contact_info div h1 span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.contact_info div h2 {
+  font-size: 13px;
+  font-weight: 100;
+}
+.contact_info div h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.contact_info div img {
+  margin-bottom: 20px;
+  width: 90%;
+  height: 195px;
+  border-radius: 100%;
+  border: solid 3px #a5a5a7;
+}
+.contact_info div ul li span {
+  font-weight: bolder;
+}
+
+.main_info {
+  max-width: 800px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.main_info .container {
+  border-top: 3px dashed #a5a5a7;
+}
+.main_info .container h3 {
+  background-color: #a5a5a7;
+  width: 350px;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: -15px;
+}
+.main_info .container li {
+  border-bottom: 1px dotted #a5a5a7;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.main_info .container li:last-child {
+  border-bottom: none;
+}
+.main_info .container li h4 {
+  text-transform: uppercase;
+}
+.main_info .container li .block {
+  width: 20%;
+}
+.main_info .container li .block2 {
+  width: 70%;
+}
+.main_info .container .education .block {
+  width: 40%;
+}
+.main_info .container .education .block2 {
+  width: 50%;
+}
+
+.bottom {
+  display: flex;
+  border-top: 3px dashed #a5a5a7;
+  justify-content: flex-start;
+}
+.bottom .references {
+  border-right: 3px dashed #a5a5a7;
+  width: 60%;
+}
+.bottom .references h3 {
+  background-color: #a5a5a7;
+  width: 160px;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: -15px;
+}
+.bottom .references ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+.bottom .skills {
+  width: 100%;
+}
+.bottom .skills h3 {
+  background-color: #a5a5a7;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: -15px;
+  right: -20px;
+}
+.bottom .skills ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+.bottom .skills ul li {
+  align-items: center;
+  display: flex;
+}
+.bottom .skills ul li div {
+  width: 45%;
+}
+.bottom .skills ul li .progress_bar {
+  background-color: #e7e7e9;
+  width: 90%;
+  height: 20px;
+}
+.bottom .skills ul li .progress_bar .fill, .bottom .skills ul li .progress_bar .fill7, .bottom .skills ul li .progress_bar .fill6, .bottom .skills ul li .progress_bar .fill5, .bottom .skills ul li .progress_bar .fill4, .bottom .skills ul li .progress_bar .fill3, .bottom .skills ul li .progress_bar .fill2 {
+  background-color: #a5a5a7;
+  width: 70%;
+  height: 20px;
+}
+.bottom .skills ul li .progress_bar .fill2 {
+  width: 86%;
+}
+.bottom .skills ul li .progress_bar .fill3 {
+  width: 80%;
+}
+.bottom .skills ul li .progress_bar .fill4 {
+  width: 70%;
+}
+.bottom .skills ul li .progress_bar .fill5 {
+  width: 75%;
+}
+.bottom .skills ul li .progress_bar .fill6 {
+  width: 50%;
+}
+.bottom .skills ul li .progress_bar .fill7 {
+  width: 30%;
+}/*# sourceMappingURL=styles.css.map */
