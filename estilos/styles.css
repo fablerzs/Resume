@@ -53,6 +53,11 @@ body {
 .contact_info div ul li span {
   font-weight: bolder;
 }
+.contact_info .download {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
 
 .main_info {
   max-width: 800px;

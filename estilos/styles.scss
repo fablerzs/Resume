@@ -60,6 +60,11 @@ body {
             }
         }
     }
+    .download {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
 }
 
 .main_info {
