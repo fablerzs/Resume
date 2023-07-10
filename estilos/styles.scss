@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Inter:wght@100;200;300;400&family=Noto+Sans:wght@500;700&family=Roboto:wght@100;300;400;500;900&display=swap');
 
-$background1: #e7e7e9;
-$primary_color :#ffffff;
-$separator: #a5a5a7;
+$background1: #B5D1AC;
+$primary_color :#F9F9F9;
+$separator: #192F3C;
+$sub_color: white;
 * {
     padding: 0;
     margin: 0;
@@ -73,6 +74,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    background-color: $primary_color;
     .container {
         border-top: 3px dashed $separator;
         
@@ -83,6 +85,7 @@ body {
             font-size: 20px;
             position: relative;
             top: -15px;
+            color: $sub_color;
         }
         li {
             border-bottom: 1px dotted $separator;
@@ -128,6 +131,7 @@ body {
             font-size: 20px;
             position: relative;
             top: -15px;
+            color: $sub_color;
         }
         ul {
             display: flex;
@@ -146,6 +150,7 @@ body {
             position: relative;
             top: -15px;
             right: -20px;
+            color: $sub_color;
         }
         ul {
             display: flex;
