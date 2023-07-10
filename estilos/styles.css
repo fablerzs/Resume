@@ -25,7 +25,7 @@ body {
 }
 .contact_info div {
   padding: 20px 0;
-  border-bottom: 2px dashed #192F3C;
+  border-bottom: 2px dashed #291733;
 }
 .contact_info div h1 {
   font-size: 28px;
@@ -48,7 +48,7 @@ body {
   width: 90%;
   height: 195px;
   border-radius: 100%;
-  border: solid 3px #192F3C;
+  border: solid 3px #291733;
 }
 .contact_info div ul li span {
   font-weight: bolder;
@@ -68,10 +68,10 @@ body {
   background-color: #F9F9F9;
 }
 .main_info .container {
-  border-top: 3px dashed #192F3C;
+  border-top: 3px dashed #291733;
 }
 .main_info .container h3 {
-  background-color: #192F3C;
+  background-color: #291733;
   width: 350px;
   text-align: center;
   font-size: 20px;
@@ -80,7 +80,7 @@ body {
   color: white;
 }
 .main_info .container li {
-  border-bottom: 1px dotted #192F3C;
+  border-bottom: 1px dotted #291733;
   display: flex;
   justify-content: space-between;
   padding: 10px 15px;
@@ -106,15 +106,15 @@ body {
 
 .bottom {
   display: flex;
-  border-top: 3px dashed #192F3C;
+  border-top: 3px dashed #291733;
   justify-content: flex-start;
 }
 .bottom .references {
-  border-right: 3px dashed #192F3C;
+  border-right: 3px dashed #291733;
   width: 60%;
 }
 .bottom .references h3 {
-  background-color: #192F3C;
+  background-color: #291733;
   width: 160px;
   text-align: center;
   font-size: 20px;
@@ -132,7 +132,7 @@ body {
   width: 100%;
 }
 .bottom .skills h3 {
-  background-color: #192F3C;
+  background-color: #291733;
   width: 200px;
   text-align: center;
   font-size: 20px;
@@ -160,7 +160,7 @@ body {
   height: 20px;
 }
 .bottom .skills ul li .progress_bar .fill, .bottom .skills ul li .progress_bar .fill7, .bottom .skills ul li .progress_bar .fill6, .bottom .skills ul li .progress_bar .fill5, .bottom .skills ul li .progress_bar .fill4, .bottom .skills ul li .progress_bar .fill3, .bottom .skills ul li .progress_bar .fill2 {
-  background-color: #192F3C;
+  background-color: #291733;
   width: 70%;
   height: 20px;
 }
