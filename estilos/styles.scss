@@ -11,17 +11,20 @@ $sub_color: white;
     color: black;
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 13px;
+    font-size: 1rem;
     list-style: none;
 }
 
 body {
     display: flex;
-    justify-content: center;
+    margin: auto;
+    max-height: 1679px;
+    max-width: 1150px;
+
 }
 
 .contact_info {
-    width: 280px;
+    width: 350px;
     padding: 50px 30px;
     display: flex;
     flex-direction: column;
@@ -39,7 +42,7 @@ body {
             }
         }
         h2 {
-            font-size: 13px;
+            font-size: 19px;
             font-weight: 100;
         }
         h3 {
@@ -49,7 +52,7 @@ body {
         img {
             margin-bottom: 20px;
             width: 90%;
-            height: 195px;
+            height: 265px;
             border-radius: 100%;
             border: solid 3px $separator;
         }
