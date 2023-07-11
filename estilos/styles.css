@@ -6,7 +6,7 @@
   color: black;
   box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
-  font-size: 13px;
+  font-size: 1rem;
   list-style: none;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 .contact_info {
-  width: 280px;
+  width: 350px;
   padding: 50px 30px;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ body {
   font-weight: 600;
 }
 .contact_info div h2 {
-  font-size: 13px;
+  font-size: 19px;
   font-weight: 100;
 }
 .contact_info div h3 {
@@ -46,7 +46,7 @@ body {
 .contact_info div img {
   margin-bottom: 20px;
   width: 90%;
-  height: 195px;
+  height: 265px;
   border-radius: 100%;
   border: solid 3px #291733;
 }
