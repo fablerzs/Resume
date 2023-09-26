@@ -162,6 +162,9 @@ body {
             padding: 10px;
             li {
                 align-items: center;
+                img {
+                    width: 15px;
+                }
                 div {
                     width: 45%;
                 }
@@ -192,11 +195,11 @@ body {
                         }
                         &6 {
                             @extend .fill;
-                            width: 50%;
+                            width: 30%;
                         }
                         &7 {
                             @extend .fill;
-                            width: 30%;
+                            width: 40%;
                         }
 
 
