@@ -73,10 +73,10 @@ body {
 
 .main_info {
     max-width: 800px;
-    padding: 40px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     background-color: $primary_color;
     .container {
         border-top: 3px dashed $separator;
@@ -100,7 +100,7 @@ body {
             }
             display: flex;
             justify-content: space-between;
-            padding: 10px 15px;
+            padding: 8px 8px;
             .block {
                 width: 20%;
                 &2 {

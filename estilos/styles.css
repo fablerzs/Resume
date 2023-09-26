@@ -63,10 +63,10 @@ body {
 
 .main_info {
   max-width: 800px;
-  padding: 40px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
   background-color: #F9F9F9;
 }
 .main_info .container {
@@ -85,7 +85,7 @@ body {
   border-bottom: 1px dotted #291733;
   display: flex;
   justify-content: space-between;
-  padding: 10px 15px;
+  padding: 8px 8px;
 }
 .main_info .container li:last-child {
   border-bottom: none;
