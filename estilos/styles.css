@@ -166,17 +166,17 @@ body {
 }
 .bottom .skills ul li .progress_bar .fill, .bottom .skills ul li .progress_bar .fill7, .bottom .skills ul li .progress_bar .fill6, .bottom .skills ul li .progress_bar .fill5, .bottom .skills ul li .progress_bar .fill4, .bottom .skills ul li .progress_bar .fill3, .bottom .skills ul li .progress_bar .fill2 {
   background-color: #291733;
-  width: 70%;
+  width: 60%;
   height: 20px;
 }
 .bottom .skills ul li .progress_bar .fill2 {
-  width: 86%;
+  width: 73%;
 }
 .bottom .skills ul li .progress_bar .fill3 {
-  width: 80%;
+  width: 65%;
 }
 .bottom .skills ul li .progress_bar .fill4 {
-  width: 70%;
+  width: 60%;
 }
 .bottom .skills ul li .progress_bar .fill5 {
   width: 75%;

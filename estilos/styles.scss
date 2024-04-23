@@ -175,19 +175,19 @@ body {
                     height: 20px;
                     .fill {
                         background-color: $separator;
-                        width: 70%;
+                        width: 60%;
                         height: 20px;
                         &2 {
                             @extend .fill;
-                            width: 86%;
+                            width: 73%;
                         } 
                         &3 {
                             @extend .fill;
-                            width: 80%;
+                            width: 65%;
                         }
                         &4 {
                             @extend .fill;
-                            width: 70%;
+                            width: 60%;
                         }
                         &5 {
                             @extend .fill;
