@@ -49,6 +49,11 @@ body {
             font-size: 20px;
             padding-bottom: 20px;
         }
+        h5 {
+            font-size: 18px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
         img {
             margin-bottom: 20px;
             width: 90%;
@@ -199,7 +204,7 @@ body {
                         }
                         &7 {
                             @extend .fill;
-                            width: 40%;
+                            width: 20%;
                         }
 
 

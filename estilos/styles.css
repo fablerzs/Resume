@@ -45,6 +45,11 @@ body {
   font-size: 20px;
   padding-bottom: 20px;
 }
+.contact_info div h5 {
+  font-size: 18px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 .contact_info div img {
   margin-bottom: 20px;
   width: 90%;
@@ -185,5 +190,5 @@ body {
   width: 30%;
 }
 .bottom .skills ul li .progress_bar .fill7 {
-  width: 40%;
+  width: 20%;
 }/*# sourceMappingURL=styles.css.map */
